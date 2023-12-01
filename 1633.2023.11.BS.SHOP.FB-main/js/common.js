@@ -1,5 +1,5 @@
 function formatCurrency(number) {
-    return number.toLocaleString('en', { style: 'currency', currency: 'USD' });
+    return number.toLocaleString('en', { style: 'currency', currency: 'EUR' });
 }
 
 function displayValidationError(elementId, message) {
